@@ -19,7 +19,10 @@
     },
     "assets": {
       "master": [{"file": "*.yaml", "target": "/manifests"}],
+      "host2": [{"file": "*.yaml", "target": "/manifests"}],
+      "host1": [{"file": "*.yaml", "target": "/manifests"}],
       "node1": [{"file": "*.yaml", "target": "/manifests"}]
+
     }
   },
   "environment": {
