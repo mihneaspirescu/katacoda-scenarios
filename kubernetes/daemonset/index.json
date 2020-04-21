@@ -19,7 +19,7 @@
     },
     "assets": {
       "master": [{"file": "*.yaml", "target": "/manifests"}],
-      "host01": [{"file": "*.yaml", "target": "/manifests"}]
+      "node01": [{"file": "*.yaml", "target": "/manifests"}]
     }
   },
   "environment": {
@@ -29,6 +29,6 @@
     "icon": "fa-kubernetes"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running"
+    "imageid": "kubernetes-cluster"
   }
 }
